@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
+import java.util.List;
 import javax.swing.table.DefaultTableModel;
 
 public class DataOfStore extends Accounts
@@ -25,16 +26,16 @@ public class DataOfStore extends Accounts
 	 private Font font,fnt;
 	 private JTable table,customer_table,Updat_Table;
 	 static  double price = 0;
-	 private ArrayList<Integer> Bakery_values = new ArrayList<>();
-	 private ArrayList<Integer> Vege_values = new ArrayList<>();
-	 private ArrayList<Integer> Fruit_values = new ArrayList<>();
-	 private ArrayList<String> Bak_Items = new ArrayList<>();
-	 private ArrayList<String> Vegetables = new ArrayList<>();
-	 private ArrayList<String> Fruits = new ArrayList<>();
-	 private static ArrayList<String> Customer_List = new ArrayList<>();
-	 private static ArrayList<Double> Customer_List_Price = new ArrayList<>();
-	 private static ArrayList<Double> Item_Quantity = new ArrayList<>();
-	 private static ArrayList<Double> Unit_Price = new ArrayList<>();
+	 private List<Integer> Bakery_values = new ArrayList<>();
+	 private List<Integer> Vege_values = new ArrayList<>();
+	 private List<Integer> Fruit_values = new ArrayList<>();
+	 private List<String> Bak_Items = new ArrayList<>();
+	 private List<String> Vegetables = new ArrayList<>();
+	 private List<String> Fruits = new ArrayList<>();
+	 private static List<String> Customer_List = new ArrayList<>();
+	 private static List<Double> Customer_List_Price = new ArrayList<>();
+	 private static List<Double> Item_Quantity = new ArrayList<>();
+	 private static List<Double> Unit_Price = new ArrayList<>();
 	 {
 
 
