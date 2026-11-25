@@ -10,11 +10,11 @@ public class Accounts
 {
 	static int index = 0;
 	
-	 static List<String> Name = new ArrayList<String>();
-	 static List<String> PhoneNumber = new ArrayList<String>();
-	 static List<String> Address = new ArrayList<String>();
-	 static List<String> Password = new ArrayList<String>();
-	 static List<String> email = new ArrayList<String>();
+	 static ArrayList<String> Name = new ArrayList<String>();
+	 static ArrayList<String> PhoneNumber = new ArrayList<String>();
+	 static ArrayList<String> Address = new ArrayList<String>();
+	 static ArrayList<String> Password = new ArrayList<String>();
+	 static ArrayList<String> email = new ArrayList<String>();
 	private JFrame  frame,Reg_frame;
 	private JTextField Tfield, Reg_field1,Reg_field2,Reg_field3,Reg_field4;
 	private JTextArea Reg_fieldArea;
@@ -23,7 +23,7 @@ public class Accounts
 	private JPasswordField pas_field;
 	private JButton button1,button2,Reg_button1,Reg_button2;
 	{
-		/* Adding temporary values to all List
+		/* Adding temporary values to all ArrayList
 		 * to check the functionality of 
 		 * our program.
 		 */
